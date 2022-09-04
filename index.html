@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+</head>
+<body>
+  <div class="container">
+    <div class="top"> 
+      <div>calc</div>
+      <div>THEME</div>
+      <div class="switch-container">
+        <div class="switch" onclick="change_theme()">
+          <div class="round"></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="overflow: hidden;" class="screen"></div>
+
+    <div class="main">
+      <div id="number">7</div>
+      <div id="number">8</div>
+      <div id="number">9</div>
+      <div id="del">DEL</div>
+      <div id="number">4</div>
+      <div id="number">5</div>
+      <div id="number">6</div>
+      <div id="operator">+</div>
+      <div id="number">1</div>
+      <div id="number">2</div>
+      <div id="number">3</div>
+      <div id="operator">-</div>
+      <div id="number">.</div>
+      <div id="number">0</div>
+      <div id="operator">/</div>
+      <div id="operator">x</div>
+      <div id="reset">RESET</div>
+      <div id="equal">=</div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
